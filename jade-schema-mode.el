@@ -131,7 +131,7 @@
     ("typeSources"     . ,jade-schema-type-source-pattern)))
 
 (defun jade-schema-imenu-create-index ()
-  "Create index for Imenu"
+  "Create index for Imenu."
   (goto-char (point-min))
   (let* ((section-pattern jade-schema-section-pattern)
          (indexables (mapcar 'car jade-schema-imenu-indexables))
