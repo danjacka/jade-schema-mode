@@ -1,3 +1,5 @@
+[![MELPA](https://melpa.org/packages/jade-schema-mode-badge.svg)](https://melpa.org/#/jade-schema-mode)
+
 # Jade Schema mode
 
 Font-lock and navigation support for Jade Platform schema files in Emacs.
@@ -25,7 +27,13 @@ provides basic Emacs capabilities for navigating a schema file:
 
 ## Installation
 
-Installation is manual. Add these lines to your config:
+`jade-schema-mode` is available on [MELPA](https://melpa.org/#/jade-schema-mode).
+
+```
+M-x package-install jade-schema-mode
+```
+
+Or you can install manually by adding these lines to your config:
 
 ```lisp
 (autoload 'jade-schema-mode "/path/to/jade-schema-mode/jade-schema-mode.el" nil t)
